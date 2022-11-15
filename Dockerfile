@@ -12,7 +12,7 @@ RUN npm install
 
 # enviromental variables
 # in js use process.env.PORT
-ENV PORT = 3000
+ENV PORT 3000
 
 # open this port
 EXPOSE 3000
