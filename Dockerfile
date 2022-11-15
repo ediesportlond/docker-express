@@ -1,7 +1,7 @@
 # always starts with FROM
 # importing a node image found on hub.docker.com
 # Alpine Linux with Node 16
-FROM node:16-alipne3.15
+FROM node:16-alpine3.15
 
 # create a working directory and copy all files (except .dockerignore files)
 WORKDIR /src/
